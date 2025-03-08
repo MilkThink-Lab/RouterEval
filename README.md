@@ -13,11 +13,11 @@ pip install -r requirements.txt
 ## 📦 Data Download
 
 Baidu Cloud: [LINK_TO_BE_ADDED]
+
 Google Drive: [LINK_TO_BE_ADDED]
 
 
 The data format in the cloud drive is as follows. 
-****
 ```
 data/
 ├── leaderboard_score/    # 200M score records across 8500 LLMs and 12 datasets
@@ -29,7 +29,7 @@ data/
 Recommendation➡️ For direct use of our pre-built router datasets:
 
 * download ```router_dataset```  to ```data``` folder (contains ready-to-use data)
-* For basic use, there is no need to download ```leaderboard_score```, ```leaderboard_prompt```, and ```leaderboard_embed```.
+* For basic use, there is **NO NEED** to download ```leaderboard_score```, ```leaderboard_prompt```, and ```leaderboard_embed```.
 
 
 ##  🧪 Testing Baseline Routers
