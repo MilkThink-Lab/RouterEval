@@ -33,7 +33,7 @@ Recommendation➡️ For direct use of our pre-built router datasets:
 
 
 ##  🧪 Testing Baseline Routers
-### Baseline Implementations
+#### Baseline Implementations
 
 ```
 router/
@@ -44,14 +44,14 @@ router/
 └── RoBERTa-MLC/          # MLC router
 ```
 
-### Experimental Settings
+#### Experimental Settings
 | Difficulty Level | Candidate Pool Size   | Candidate Groups                |
 |------------------|-----------------------|--------------------------------------|
 | Easy             | [3, 5]                | all strong / all weak / strong to weak                   |
 | Hard             | [10, 100, 1000]       | all strong / all weak / strong to weak       |
 
 
-### Run evaluation:
+#### Run evaluation:
 ```
 python test_router.py
 ```
@@ -86,14 +86,13 @@ Advanced Usage (**optional**) ➡️ To reproduce the construction process of th
 
 1. Download ```leaderboard_score```, ```leaderboard_prompt```, and ```leaderboard_embed```
 
-2. Place in ```data/``` directory
+2. Place the three folder in ```data/``` directory
 
-3. Run:
+3. Run ```get_router_dataset.py``` to build router datasets:
 
 ```base
 python get_router_dataset.py
 ```
-
 
 
 
