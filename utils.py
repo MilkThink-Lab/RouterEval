@@ -89,6 +89,16 @@ def create_responses(scenarios, data):
     return responses
 
 
+# check the whole router dataset
+def convert_arrays_to_shapes(obj):
+    if isinstance(obj, dict):
+        return {k: convert_arrays_to_shapes(v) for k, v in obj.items()}
+    elif isinstance(obj, np.ndarray):
+        return obj.shape
+    else:
+        return obj
+
+
 scenarios_mmlu_pro = {'mmlu_pro': ['mmlu_pro']}
 
 scenarios_new = {'bbh':['bbh_boolean_expressions',
