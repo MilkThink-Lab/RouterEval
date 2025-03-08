@@ -28,12 +28,12 @@ data/
 
 Recommendation➡️ For direct use of our pre-built router datasets:
 
-* download ```router_dataset```  to ```data``` folder (contains ready-to-use data)
+* Create a ```data``` folder and download ```router_dataset```  to the ```data``` folder
 * For basic use, there is **NO NEED** to download ```leaderboard_score```, ```leaderboard_prompt```, and ```leaderboard_embed```.
 
 
 ##  🧪 Testing Baseline Routers
-Baseline Implementations
+### Baseline Implementations
 
 ```
 router/
@@ -44,22 +44,22 @@ router/
 └── RoBERTa-MLC/          # MLC router
 ```
 
-🎯 Experimental Settings
+### Experimental Settings
 | Difficulty Level | Candidate Pool Size   | Candidate Groups                |
 |------------------|-----------------------|--------------------------------------|
 | Easy             | [3, 5]                | all strong / all weak / strong to weak                   |
 | Hard             | [10, 100, 1000]       | all strong / all weak / strong to weak       |
 
 
-Run evaluation:
+### Run evaluation:
 ```
 python test_router.py
 ```
 
 ## 🛠️ Testing Custom Routers
-1. Create new folder under router/
+1. Create new folder under ```router/```
 
-2. Implement your method with required interface:
+2. Implement your method with required format:
 
 ```python
 # train your router
