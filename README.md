@@ -16,6 +16,7 @@ Baidu Cloud: [LINK_TO_BE_ADDED]
 
 Google Drive: [LINK_TO_BE_ADDED]
 
+Hugging Face: [LINK_TO_BE_ADDED]
 
 The data format in the cloud drive is as follows.  You can just download the ```router_dataset``` for basic use.
 ```
@@ -57,6 +58,8 @@ python test_router.py
 ```
 
 ## 🛠️ Testing Custom Routers
+If you want to design a router and test its performance on the router datasets, you can follow the steps below.
+
 1. Create new folder under ```router/```
 
 2. Implement your method with required format:
