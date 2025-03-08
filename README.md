@@ -7,7 +7,7 @@ RouterEval is a comprehensive benchmark for evaluating router performance in LLM
 
 ## ⚡ Quick Start
 
-### Environment Setup
+###⚙️ Environment Setup
 ```bash
 pip install -r requirements.txt
 ```
@@ -32,13 +32,13 @@ Recommendation➡️ For direct use of our pre-built router datasets:
 
 Advanced Usage ➡️ For custom embeddings:
 
-* Download leaderboard_prompt + process with your embedding model
-* Use existing leaderboard_embed 
+* Download ```leaderboard_prompt``` + process with your embedding model
+* Use existing ```leaderboard_embed```  (including four embed models: longformer, RoBERTa, RoBERTa_last, and sentence_bert).
 
 ## 🔧 Constructing Router Dataset
 1. Download all three core data components
 
-2. Place in data/ directory
+2. Place in ```data/``` directory
 
 3. Run:
 
@@ -70,5 +70,16 @@ python test_router.py
 ```
 
 ## 🛠️ Testing Custom Routers
+1. Create new folder under router/
+
+2. Implement your method with required interface:
+
+```python
+# train your router
+# test your router
+print(mu, vb, ep)  # Must print these three metrics at last
+```
+
+## 📊 Baseline Results 
 
 ## 📜 Citation
