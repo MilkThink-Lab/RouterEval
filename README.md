@@ -5,25 +5,25 @@
 
 RouterEval is a comprehensive benchmark for evaluating router performance in LLM systems, featuring **12 datasets**, **8,500 LLMs**, and **200,000,000 data records**.
 
-## ⚡ Quick Start
-
-### ⚙️ Environment Setup
+## ⚙️ Environment Setup
 ```bash
 pip install -r requirements.txt
 ```
 
-### 📦 Data Download
+## 📦 Data Download
 
 Baidu Cloud: [LINK_TO_BE_ADDED]
 
 Google Drive: [LINK_TO_BE_ADDED]
 
-Data Structure
+
+The data format in the cloud drive is as follows. You don't need to download all the data (depending on your needs).
 ```
 data/
 ├── leaderboard_score/    # 200M score records across 12 datasets
 ├── leaderboard_prompt/   # Full prompts for all test cases 
 └── leaderboard_embed/    # Pre-computed embeddings (4 types)
+└── router_dataset/         # ready-to-use router evaluation data (12 datasets)
 ```
 
 Recommendation➡️ For direct use of our pre-built router datasets:
@@ -36,6 +36,8 @@ Advanced Usage ➡️ For custom embeddings:
 * Use existing ```leaderboard_embed```  (including four embed models: longformer, RoBERTa, RoBERTa_last, and sentence_bert).
 
 ## 🔧 Constructing Router Dataset
+This part is optional. If you only want to test your router, you can directly download and use the prepared ```router_dataset```.
+
 1. Download all three core data components
 
 2. Place in ```data/``` directory
