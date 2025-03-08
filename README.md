@@ -12,11 +12,11 @@ pip install -r requirements.txt
 
 ## 📦 Data Download
 
-Baidu Cloud: [LINK_TO_BE_ADDED]
+Baidu Cloud: [https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce]
 
-Google Drive: [LINK_TO_BE_ADDED]
+Google Drive: [https://drive.google.com/drive/folders/1LnIk4zKQMjBKX7oFr1-FHUzpsmPISAIQ?usp=sharing]
 
-Hugging Face: [LINK_TO_BE_ADDED]
+Hugging Face: [https://huggingface.co/datasets/linggm/RouterEval]
 
 The data format in the cloud drive is as follows.  You can just download the ```router_dataset``` for basic use.
 ```
