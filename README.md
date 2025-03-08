@@ -7,7 +7,7 @@ RouterEval is a comprehensive benchmark for evaluating router performance in LLM
 
 ## ⚡ Quick Start
 
-###⚙️ Environment Setup
+### ⚙️ Environment Setup
 ```bash
 pip install -r requirements.txt
 ```
