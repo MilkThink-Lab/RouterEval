@@ -1,4 +1,4 @@
-# <img src="figure/logo.png" width="30" height="30"> RouterEval: A Comprehensive Benchmark for Routing LLMs
+# <img src="figure/logo.png" width="40" height="40"> RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs
 
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)]()
