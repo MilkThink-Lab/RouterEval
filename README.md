@@ -1,7 +1,6 @@
 # <img src="logo.png" width="40" height="40"> RouterEval 
 
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)]()
 
 RouterEval is a comprehensive benchmark for evaluating router performance in LLM systems, featuring **12 datasets**, **8,500 LLMs**, and **200,000,000 data records**.
@@ -29,7 +28,7 @@ data/
 
 Recommendation➡️ For direct use of our pre-built router datasets:
 
-download ```router_dataset```  to ```data``` folder (contains ready-to-use data)
+* download ```router_dataset```  to ```data``` folder (contains ready-to-use data)
 
 Advanced Usage ➡️ For custom embeddings:
 
@@ -48,10 +47,10 @@ python get_router_dataset.py
 ```
 
 🎯 Experimental Settings
-Candidate Pool Size	Difficulty Level	Candidate Composition
-[3, 5]	Easy	Strong/Weak/Mixed
-[10, 100, 1000]	Hard	Strong/Weak/Mixed (balanced)
-
+| Difficulty Level | Candidate Pool Size   | Candidate Composition                |
+|------------------|-----------------------|--------------------------------------|
+| Easy             | [3, 5]                | all strong/ all weak/ strong to weak                   |
+| Hard             | [10, 100, 1000]       | all strong / all weak / strong to weak       |
 
 ##  🧪 Testing Baseline Routers
 Baseline Implementations
