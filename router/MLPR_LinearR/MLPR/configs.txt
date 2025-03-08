@@ -1,0 +1,18 @@
+datadir : data/tmp_perf.npz
+workers : 4
+epoch : 1
+train_batch : 1000
+lr : 0.0001
+weight_decay : 0
+optim : adam
+lr_strategy : coslr
+input_size : 100
+hidden_size : 256
+output_size : 100
+layers : 4
+gpu : 0
+checkpoint : router/MLPR_LinearR/MLPR
+resume : 
+start_epoch : 0
+manualSeed : None
+model : FNN

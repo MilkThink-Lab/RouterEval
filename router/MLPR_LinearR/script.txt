@@ -1,0 +1,7 @@
+# MLPR
+
+python train.py --datadir ../llm_performance.npz --lr 0.001 --model FNN --epoch 100 --hidden_size 400 --train-batch 1024 --checkpoint MLPR
+
+# Linear
+
+python train.py --datadir ../llm_performance.npz --lr 0.1 --model linear --epoch 10 --train-batch 1024 --checkpoint linear

@@ -1,0 +1,13 @@
+--data ../llm_performance.npz 
+this is a datadict containing 
+train_score (11215, 5)  # number of inquiry x # number of model
+val_score (1397, 5)
+test_score (1430, 5) 
+train_embed (11215, 1536)  # number of inquiry x embedding dimension
+val_embed (1397, 1536)
+test_embed (1430, 1536)
+
+
+***** in fact, this code does not use the validation set *****
+
+python cluster.py --seed 0 --numcluster 3 --data ../llm_performance.npz
