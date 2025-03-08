@@ -17,7 +17,7 @@ Baidu Cloud: [LINK_TO_BE_ADDED]
 Google Drive: [LINK_TO_BE_ADDED]
 
 
-The data format in the cloud drive is as follows. 
+The data format in the cloud drive is as follows.  You can just download the ```router_dataset``` for basic use.
 ```
 data/
 ├── leaderboard_score/    # 200M score records across 8500 LLMs and 12 datasets
@@ -40,7 +40,7 @@ router/
 ├── C-RoBERTa-cluster/    # C-RoBERTa router
 ├── MLPR_LinearR/         # mlp & linear router
 ├── PRKnn-knn/            # kNN router
-├── R_o/                  # Oracle & $r_o$ & random router
+├── R_o/                  # Oracle & r_o & random router
 └── RoBERTa-MLC/          # MLC router
 ```
 
