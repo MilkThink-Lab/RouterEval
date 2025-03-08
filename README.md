@@ -51,7 +51,7 @@ python get_router_dataset.py
 🎯 Experimental Settings
 | Difficulty Level | Candidate Pool Size   | Candidate Composition                |
 |------------------|-----------------------|--------------------------------------|
-| Easy             | [3, 5]                | all strong/ all weak/ strong to weak                   |
+| Easy             | [3, 5]                | all strong / all weak/ strong to weak                   |
 | Hard             | [10, 100, 1000]       | all strong / all weak / strong to weak       |
 
 ##  🧪 Testing Baseline Routers
@@ -62,7 +62,7 @@ router/
 ├── C-RoBERTa-cluster/    # C-RoBERTa router
 ├── MLPR_LinearR/         # mlp & linear router
 ├── PRKnn-knn/            # kNN router
-├── R_o/                  # Oracle & &r_o& & random router
+├── R_o/                  # Oracle & $r_o$ & random router
 └── RoBERTa-MLC/          # MLC router
 ```
 
@@ -78,8 +78,11 @@ python test_router.py
 
 ```python
 # train your router
+......
 # test your router
-print(mu, vb, ep)  # Must print these three metrics at last
+......
+# print metircs (Must print these three metrics at last)
+print(mu, vb, ep)  
 ```
 
 ## 📊 Baseline Results 
