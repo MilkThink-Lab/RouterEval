@@ -20,7 +20,10 @@ The proposed RouterEval is a comprehensive benchmark for evaluating router perfo
 
 
 ## ⚙️ Environment Setup
+Create a Python virtual environment and install all the packages listed in the ```requirements.txt```.
 ```bash
+conda create -n RouterEval python=3.10
+conda activate RouterEval
 pip install -r requirements.txt
 ```
 
