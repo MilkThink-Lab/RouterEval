@@ -2,8 +2,22 @@
 
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)]()
+[![paper](https://img.shields.io/badge/cs.AI-2312.02439-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2312.02439)
+![GitHub](https://img.shields.io/github/license/MilkThink-Lab/RouterEval.svg)
 
-RouterEval is a comprehensive benchmark for evaluating router performance in LLM systems, featuring **12 datasets**, **8,500 LLMs**, and **200,000,000 data records**.
+This repository is the official codebase of "RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs" [[paper]](https://arxiv.org/abs/2312.02439).
+RouterEval is a comprehensive benchmark for evaluating router performance in the Routing LLMs paradigm, featuring **12 LLM evaluations**, **8,500 LLMs**, and **200,000,000 data records**.
+
+
+## 🎉 News
+
+
+2025/03/09 - We released our all dataset in [[Baidu Drive]](https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce) [[Google Drive]](https://drive.google.com/drive/folders/1LnIk4zKQMjBKX7oFr1-FHUzpsmPISAIQ?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/RouterEval). 👈🎉Please try it! 
+
+2025/03/08 - We released a curated list of awesome works in the Routing LLMs paradigm [Link](https://github.com/MilkThink-Lab/Awesome-Routing-LLMs). 👈🎉Please check it out! 
+
+2025/03/08 - We released our paper [[arxiv]](https://arxiv.org/abs/2312.02439). Please check it out! 
+
 
 ## ⚙️ Environment Setup
 ```bash
@@ -12,11 +26,9 @@ pip install -r requirements.txt
 
 ## 📦 Data Download
 
-Baidu Cloud: [https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce]
+**Data Download**: [[Baidu Drive]](https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce) [[Google Drive]](https://drive.google.com/drive/folders/1LnIk4zKQMjBKX7oFr1-FHUzpsmPISAIQ?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/RouterEval)
 
-Google Drive: [https://drive.google.com/drive/folders/1LnIk4zKQMjBKX7oFr1-FHUzpsmPISAIQ?usp=sharing]
 
-Hugging Face: [https://huggingface.co/datasets/linggm/RouterEval]
 
 The data format in the cloud drive is as follows.  You can just download the ```router_dataset``` for basic use.
 ```
@@ -105,3 +117,12 @@ python get_router_dataset.py
 <img src="figure/table2.png" alt="baseline table2" style="width:100%; height:auto;">
 
 ## 📜 Citation
+
+```
+@misc{huang2025routereval,
+  title={RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs},
+  author={Huang, Zhongzhan and Ling, Guoming and Liang, Vincent S. and Lin, Yupei and Chen, Yandong and Zhong, Shanshan and Wu, Hefeng and Lin, Liang},
+  journal={arXiv preprint arXiv:2312.02439},
+  year={2025}
+}
+```
