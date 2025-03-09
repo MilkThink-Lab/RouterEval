@@ -61,8 +61,7 @@ unzip router_dataset.zip
 ```
 
 ## 🚀 Quick Start
-A minimal usage example is included in the ```quick_start.ipynb```.
-
+#### A minimal usage example
 Run ```quick_start.ipynb``` to view the information of the router dataset, build a simple router, train and test the router using the data from the dataset, and check the performance metrics.
 
 
