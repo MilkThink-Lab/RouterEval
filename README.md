@@ -65,6 +65,25 @@ A minimal usage example is included in the ```quick_start.ipynb```.
 
 Run ```quick_start.ipynb``` to view the information of the router dataset, build a simple router, train and test the router using the data from the dataset, and check the performance metrics.
 
+Here are some variables in quick_start.ipynb that you can adjust.
+
+```python
+# choose to_handle_datasets from below
+# ['arc', 'hellaswag', 'mmlu', 'winogrande', 'gsm8k']
+# ['ifeval', 'bbh', 'gpqa', 'musr', 'math', 'mmlu_pro']
+to_handle_dataset = 'gsm8k'
+
+# The difficulty level and num_candidates settings of the router dataset
+difficulty = 'easy'  # 'easy' / 'hard'
+
+# Under the "easy" setting, you can choose from [3, 5]
+# under the "hard" setting, you can choose from [10, 100, 1000].
+num_candidates = 5   # 3 / 5 / 10 / 100 / 1000
+
+# The parameter k of the KNN router, default = 5
+knearest = 5
+```
+
 
 ## 🧪 Testing Baseline Routers
 #### Baseline Implementations
