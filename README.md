@@ -14,7 +14,7 @@ RouterEval is a comprehensive benchmark for evaluating router performance in the
 
 2025/03/09 - We released our all dataset in [[Baidu Drive]](https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce) [[Google Drive]](https://drive.google.com/drive/folders/1LnIk4zKQMjBKX7oFr1-FHUzpsmPISAIQ?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/RouterEval). 👈🎉Please try it! 
 
-2025/03/08 - We released a curated list of awesome works in the Routing LLMs paradigm [Link](https://github.com/MilkThink-Lab/Awesome-Routing-LLMs). 👈🎉Please check it out! 
+2025/03/08 - We released a curated list of awesome works in the Routing LLMs [Link](https://github.com/MilkThink-Lab/Awesome-Routing-LLMs). 👈🎉Please check it out! 
 
 2025/03/08 - We released our paper [[arxiv]](https://arxiv.org/abs/2312.02439). Please check it out! 
 
