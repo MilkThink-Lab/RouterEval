@@ -5,7 +5,7 @@
 [![paper](https://img.shields.io/badge/cs.AI-2312.02439-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2312.02439)
 ![GitHub](https://img.shields.io/github/license/MilkThink-Lab/RouterEval.svg)
 
-This repository is the official codebase of "RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs" [[paper]](https://arxiv.org/abs/2312.02439).
+This repository is the official codebase of our paper "RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs" [[paper]](https://arxiv.org/abs/2312.02439).
 RouterEval is a comprehensive benchmark for evaluating router performance in the Routing LLMs paradigm, featuring **12 LLM evaluations**, **8,500 LLMs**, and **200,000,000 data records**.
 
 
@@ -16,7 +16,7 @@ RouterEval is a comprehensive benchmark for evaluating router performance in the
 
 2025/03/08 - We released a curated list of awesome works in the Routing LLMs [Link](https://github.com/MilkThink-Lab/Awesome-Routing-LLMs). 👈🎉Please check it out! 
 
-2025/03/08 - We released our paper [[arxiv]](https://arxiv.org/abs/2312.02439). Please check it out! 
+2025/03/08 - We released our paper [[arxiv]](https://arxiv.org/abs/2312.02439). 👈🎉 Please check it out! 
 
 
 ## ⚙️ Environment Setup
