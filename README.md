@@ -5,7 +5,7 @@
 [![paper](https://img.shields.io/badge/cs.AI-2312.02439-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2312.02439)
 ![GitHub](https://img.shields.io/github/license/gbup-group/DIANet.svg)
 
-This repository is the official codebase of our paper "RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs" [[paper]](https://arxiv.org/abs/2312.02439) [[slide]](https://arxiv.org/abs/2312.02439).
+This repository is the official codebase of our paper "RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs" [[paper]](https://arxiv.org/abs/2312.02439) [[slide]](https://github.com/MilkThink-Lab/RouterEval/blob/main/figure/slide.pdf).
 The proposed RouterEval is a comprehensive benchmark for evaluating router performance in the Routing LLMs paradigm, featuring **12 LLM evaluations**, **8,500+ LLMs**, and **200,000,000+ data records**.
 
 
