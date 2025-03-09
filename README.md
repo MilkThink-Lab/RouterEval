@@ -60,7 +60,13 @@ wget --no-check-certificate "$url" -O router_dataset.zip
 unzip router_dataset.zip
 ```
 
-##  🧪 Testing Baseline Routers
+## 🚀 Quick Start
+A minimal usage example is included in the ```quick_start.ipynb```.
+
+Run ```quick_start.ipynb``` to view the information of the router dataset, build a simple router, train and test the router using the data from the dataset, and check the performance metrics.
+
+
+## 🧪 Testing Baseline Routers
 #### Baseline Implementations
 
 ```
