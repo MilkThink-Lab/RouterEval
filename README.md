@@ -44,6 +44,14 @@ Recommendation➡️ For direct use of our pre-built router datasets:
 * Create a ```data``` folder and download ```router_dataset```  to the ```data``` folder
 * For basic use, there is **NO NEED** to download ```leaderboard_score```, ```leaderboard_prompt```, and ```leaderboard_embed```.
 
+```bash
+# Create a 'data' directory in the root of this repository
+mkdir data
+cd data
+
+# Download the dataset file (router_dataset.zip) to data/
+unzip router_dataset.zip
+```
 
 ##  🧪 Testing Baseline Routers
 #### Baseline Implementations
