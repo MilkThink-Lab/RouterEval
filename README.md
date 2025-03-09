@@ -50,6 +50,9 @@ mkdir data
 cd data
 
 # Download the dataset file (router_dataset.zip) to data/
+# Download using the wgt command or manually download from the link above
+url='https://drive.google.com/uc?id=1BurZNXnHkva2umQxKbvhgccuKQ35p_Ki&export=download'
+wget --no-check-certificate "$url" -O router_dataset.zip
 unzip router_dataset.zip
 ```
 
