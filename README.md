@@ -15,7 +15,6 @@ The proposed RouterEval is a comprehensive benchmark for evaluating router perfo
 
 2025/03/08 - We released a curated list of awesome works in the Routing LLMs [[Link]](https://github.com/MilkThink-Lab/Awesome-Routing-LLMs). 👈🎉Please check it out! 
 
-2025/03/08 - We released our paper [[Link]](https://www.researchgate.net/publication/389713433_RouterEval_A_Comprehensive_Benchmark_for_Routing_LLMs_to_Explore_Model-level_Scaling_Up_in_LLMs). 👈🎉 Please check it out! 
 
 
 ## ⚙️ Environment Setup
