@@ -2,10 +2,9 @@
 
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)]()
-[![paper](https://img.shields.io/badge/cs.AI-2312.02439-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2312.02439)
 ![GitHub](https://img.shields.io/github/license/gbup-group/DIANet.svg)
 
-This repository is the official codebase of our paper "RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs" [[paper]](https://arxiv.org/abs/2312.02439) [[slide]](https://github.com/MilkThink-Lab/RouterEval/blob/main/figure/slide.pdf).
+This repository is the official codebase of our paper "RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs" [[paper]](https://www.researchgate.net/publication/389713433_RouterEval_A_Comprehensive_Benchmark_for_Routing_LLMs_to_Explore_Model-level_Scaling_Up_in_LLMs) [[slide]](https://github.com/MilkThink-Lab/RouterEval/blob/main/figure/slide.pdf).
 The proposed RouterEval is a comprehensive benchmark for evaluating router performance in the Routing LLMs paradigm, featuring **12 LLM evaluations**, **8,500+ LLMs**, and **200,000,000+ data records**.
 
 
@@ -16,7 +15,7 @@ The proposed RouterEval is a comprehensive benchmark for evaluating router perfo
 
 2025/03/08 - We released a curated list of awesome works in the Routing LLMs [[Link]](https://github.com/MilkThink-Lab/Awesome-Routing-LLMs). 👈🎉Please check it out! 
 
-2025/03/08 - We released our paper [[arxiv]](https://arxiv.org/abs/2312.02439). 👈🎉 Please check it out! 
+2025/03/08 - We released our paper [[Link]](https://www.researchgate.net/publication/389713433_RouterEval_A_Comprehensive_Benchmark_for_Routing_LLMs_to_Explore_Model-level_Scaling_Up_in_LLMs). 👈🎉 Please check it out! 
 
 
 ## ⚙️ Environment Setup
@@ -137,13 +136,4 @@ python get_router_dataset.py
 
 <img src="figure/table2.png" alt="baseline table2" style="width:100%; height:auto;">
 
-## 📜 Citation
 
-```
-@misc{huang2025routereval,
-  title={RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs},
-  author={Huang, Zhongzhan and Ling, Guoming and Liang, Vincent S. and Lin, Yupei and Chen, Yandong and Zhong, Shanshan and Wu, Hefeng and Lin, Liang},
-  journal={arXiv preprint arXiv:2312.02439},
-  year={2025}
-}
-```
