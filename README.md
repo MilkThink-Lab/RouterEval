@@ -11,7 +11,7 @@ The proposed RouterEval is a comprehensive benchmark for evaluating router perfo
 
 
 ## 🎉 News
-
+2025-10 - We released our raw data (including original answers) in  [[Hugging Face]](https://huggingface.co/datasets/linggm/RouterEval/tree/main/full_data). 👈🎉Please try it! 
 
 2025-03 - We released our all dataset in [[Baidu Drive]](https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce) [[Google Drive]](https://drive.google.com/drive/folders/1LnIk4zKQMjBKX7oFr1-FHUzpsmPISAIQ?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/RouterEval). 👈🎉Please try it! 
 
@@ -85,7 +85,9 @@ router/
 └── RoBERTa-MLC/          # MLC router
 ```
 
-#### Run evaluation:
+#### Train and test the router
+
+In `test_router.py`, change `baseline = 'knn'` to one of `['knn', 'oracle', 'random', 'r_o_0.5', 'linear', 'mlp', 'roberta_cluster', 'roberta_MLC']`, then run
 ```
 python test_router.py
 ```
