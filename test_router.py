@@ -24,6 +24,8 @@ elif baseline == 'roberta_cluster':
     command = 'python router/C-RoBERTa-cluster/cluster.py --seed 0 --numcluster 3 --data data/tmp_perf.npz'
 elif baseline == 'roberta_MLC':
     command = 'python router/RoBERTa-MLC/roberta_MLC.py --seed 0 --model_path roberta-base --data data/tmp_perf.npz'
+elif baseline == 'a3m':
+    command = 'python router/A3M-router/a3m_router.py --seed 0 --data data/tmp_perf.npz'
 else:
     raise RuntimeError("No such baseline")
 
